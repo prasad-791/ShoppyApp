@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/category_home_icon"
+            android:iconTint="@color/black"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@+id/nav_my_order"
+            android:icon="@drawable/category_order_icon"
+            android:iconTint="@color/black"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_my_wishlist"
+            android:icon="@drawable/category_wishlist_icon"
+            android:iconTint="@color/black"
+            android:title="My Wishlist" />
+        <item
+            android:id="@+id/nav_rewards"
+            android:icon="@drawable/category_rewards_icon"
+            android:iconTint="@color/black"
+            android:title="Rewards" />
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@drawable/category_cart_icon"
+            android:iconTint="@color/black"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/category_account_icon"
+            android:iconTint="@color/black"
+            android:title="My Account" />
+    </group>
+    <item
+        android:id="@+id/nav_signout"
+        android:icon="@drawable/category_signout_icon"
+        android:iconTint="@color/black"
+        android:title="Sign Out" />
+</menu>
